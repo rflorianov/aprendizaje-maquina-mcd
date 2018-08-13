@@ -117,7 +117,7 @@ es muy costosa en tiempo y dinero.
 ```{r, message = FALSE, warning = FALSE}
 dat_ingreso <- read_csv(file = 'datos/enigh-ejemplo.csv')
 head(dat_ingreso) %>% 
-    select(TAM_HOG, INGCOR, NOM_ENT_1, FOCOS, 
+    select(TAM_HOG, INGCOR, NOM_ENT.1, FOCOS, 
            PISOS, marginación, tamaño_localidad)  %>%
     knitr::kable()
 ```
