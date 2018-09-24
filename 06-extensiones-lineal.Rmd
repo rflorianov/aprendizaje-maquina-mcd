@@ -329,7 +329,7 @@ Podemos interpretar el modelo con interacción de la siguiente forma:
 
 - Si $Wind = 5$, entonces la relación Temperatura Ozono es:
 $$ Ozono = -290 + 4.5Temp + 14.6(5) - 0.2(Temp)(5) = -217 + 3.5Temp$$
-- Si $Wind=10$, 
+- Si $Wind=15$, 
  entonces la relación Temperatura Ozono es:
 $$ Ozono = -290 + 4.5Temp + 14.6(15) - 0.2(Temp)(15) = -71 + 1.5Temp$$
 
